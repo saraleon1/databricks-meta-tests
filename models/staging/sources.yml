@@ -65,3 +65,5 @@ sources:
   - name: dbt_sleon_dev
     tables:
       - name: test_results_central
+      - name: my_package_model
+      - name: dim_parts
