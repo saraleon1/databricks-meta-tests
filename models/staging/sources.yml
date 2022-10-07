@@ -6,3 +6,9 @@ sources:
     tables:
       - name: test_results_central
       - name: dim_parts
+      - name: my_package_model
+
+  - name: dbt_sleon_dev_dbt_test__audit
+    tables:
+      - name: not_null_my_package_model_id
+      - name: unique_dim_parts_manufacturer
