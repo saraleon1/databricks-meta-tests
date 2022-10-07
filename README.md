@@ -1,15 +1,3 @@
-Welcome to your new dbt project!
+This is a basic demo to show a few possible ways dbt can be used to tag rows on test failures. This assumes your tests are on the row level, and that you have a base dbt pipeline on which --stored-failures is turned on for all tests.
 
-### Using the starter project
-
-Try running the following commands:
-- dbt run
-- dbt test
-
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [dbt community](http://community.getbdt.com/) to learn from other analytics engineers
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+This was built using databricks sql.
